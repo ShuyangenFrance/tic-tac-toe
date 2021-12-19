@@ -1,4 +1,5 @@
-
+from .tic_tac_toe import TicTacToe
+from .q_learning import QLearning
 tictactoe=TicTacToe()
 tictactoe.reset()
 #check_env(tictactoc,warn=False)
